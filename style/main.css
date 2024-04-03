@@ -1,0 +1,72 @@
+.logo-img {
+    width: 30px; /* lebar gambar */
+    height: auto; 
+}
+
+.list-group-item {
+    border: none !important;
+    font-size: 12pt;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: -160px;
+}
+
+/* lebar ikon pada menu */
+.twitter-menu li i {
+    width: 35px;
+}
+
+.twitter-menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 13px;
+}
+
+.twitter-menu li a:hover {
+    background-color: #dfdede;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img:hover {
+    background-color: #dfdede;
+    border-radius: 50%;
+}
+
+.feeds {
+    border-left: solid 1px #f0f0f0;
+    border-right: solid 1px #f0f0f0;
+}
+
+.icons {
+    margin-left: 10px;
+}
+
+.icons i {
+    margin-right: 10px;
+}
+
+/* memperbesar ukuran ikon */
+.twitter-menu i {
+    font-size: 23px;
+  }
+  
+  /* memperbesar ukuran teks */
+  .twitter-menu a {
+    font-size: 17px; 
+  }
+  
+  .list-group-item:first-child {
+    margin-top: 10px; 
+}
+
+
+
+  
